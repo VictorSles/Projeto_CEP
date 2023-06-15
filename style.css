@@ -1,11 +1,15 @@
+@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
 }
-body, html{
-    background-color: rgb(29, 29, 29);
+body{
+    background-image: linear-gradient(to right, #423C3F, #391F39);
+    background-attachment: fixed;
 }
 div#valorDaVariavel{
+    background-image: linear-gradient(to right, #c76c9c, #a02ca0);
+    background-attachment: fixed;
     display: block;
     margin: auto;
     text-align: center;
@@ -13,7 +17,9 @@ div#valorDaVariavel{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    min-width: 630px;
+    min-height: 380px;
+    border-radius: 15px;
 }
 div#idiv{
     display: block;
